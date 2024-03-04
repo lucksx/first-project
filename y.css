@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family: inter;
+}
+nav{
+    border: solid white;
+    border-style: double;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 50px 0px 50px;
+    padding: 3px 0px 3px 0px;
+    border-color: black;
+}
+nav .nav-image img{
+    width: 55px;
+    border: rgb(10, 10, 10);
+    border-style: dotted;
+    border-radius: 5rem;
+}
+.links{
+    display: flex;
+    color: blue;
+}
+.buttons{
+    widt
+}
+.buttons #su{
+    background-color: blue;
+    width: 5rem;
+}
+.buttons #li{
+    background-color: ;
+    width: 5rem;
+}

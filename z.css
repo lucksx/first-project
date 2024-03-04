@@ -1,0 +1,189 @@
+body{
+    background-image: url(photos/elo\ black.jpg);
+    background-attachment: fixed;
+    border: solid white;
+}
+h1{
+    border: solid;
+    /*border-color: rgb(74, 74, 252);*/
+    color: white;
+    text-align: center;
+    border-width: 20px 300px 20px 300px;
+    border-image: url(photos/farm.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.first{
+    color: white;
+    text-align: right;
+    font-family: cursive;
+}
+.second{
+    color: white;
+    text-align: right;
+    font-style: italic;
+}
+.photos{
+  position: relative;
+  left: 50%;
+  /* border: solid; */
+  border-color: rgb(33, 45, 33);
+  /* border-width: 2px 2px 2px 60px; */
+  cursor: pointer;
+}
+.photos:hover{
+    background-image: url(photos/IMG-20240215-WA0001.jpg);
+}
+
+.livestock{
+    background-color: rgb(167, 249, 222);
+    height: 25px;
+    width: 180px;
+    cursor: pointer;g
+    border: double;
+    border-color: blue;
+}
+.livestock:hover{
+    background-color: rgb(105, 105, 245);
+}
+.livestock:active{
+    opacity: 0.2;
+}
+
+.cleaning{
+    background-color: rgb(167, 249, 222);
+    cursor: pointer;
+    height: 25px;
+    width: 180px;
+    border: double;
+    border-color: blue;
+}
+.cleaning:hover{
+    background-color: rgb(105, 105, 245);
+}
+.cleaning:active{
+    opacity: 0.2;
+}
+
+.fashion{
+    background-color: rgb(167, 249, 222);
+    cursor: pointer;
+    height: 25px;
+    width: 180px;
+    border: double;
+    border-color: blue;
+}
+.fashion:hover{
+    background-color: rgb(105, 105, 245);
+}
+
+.fashion:active{
+    opacity: 0.2;
+}
+
+.transport{
+    background-color: rgb(167, 249, 222);
+    cursor: pointer;
+    height: 25px;
+    width: 180px;
+    border: double;
+    border-color: blue;
+}
+.transport:hover{
+    background-color: rgb(105, 105, 245);
+}
+
+.transport:active{
+    opacity: 0.2;
+}
+
+.hospitality{
+    background-color: rgb(167, 249, 222);
+    cursor: pointer;
+    height: 25px;
+    width: 180px;
+    border: double;
+    border-color: blue;
+}
+.hospitality:hover{
+    background-color: rgb(105, 105, 245);
+}
+
+.hospitality:active{
+    opacity: 0.2;
+}
+#have{
+    background-color: rgb(102, 102, 210);
+    margin: 20px 2px 2px 2px;
+    border: solid rgb(70, 70, 248);
+    cursor: pointer;
+}
+#have:hover{
+    background-color: rgb(164, 89, 235);
+}
+.submit{
+    background-color: rgb(207, 43, 43);
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.submit:hover{
+    background-color: rgb(210, 73, 73);
+}
+.submit:active{
+    background-color: rgb(255, 255, 255);
+}
+.me{
+    text-align: center;
+    background-color: rgb(40, 40, 249);
+    padding: 5px 5px 5px 5px;
+    margin: 50px 290px 5px 290px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.me:hover{
+    background-color: rgb(155, 59, 245);
+}
+#form1{
+    text-align: center;
+    background-color: rgb(46, 46, 252);
+    padding: 5px 5px 5px 5px;
+    margin: 5px 290px 5px 290px;
+    border-radius: 13px;
+    transition-duration: 0.5s;
+}
+#form1:hover{
+    background-color: rgb(173, 92, 249);
+}
+
+#submit{
+    background-color: red;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    transition-duration: 0.5s;
+}
+#submit:hover{
+    background-color: rgb(250, 126, 126);
+}
+#submit:active{
+    background-color: white;
+}
+.closer{
+    background-color: rgb(250, 247, 247);
+    text-align: center;
+    border-radius: none;
+    padding-top: 1rem;
+}
+.application-images{
+    text-align: center;
+    margin-top: 1rem;
+}
+.application-images img{
+    border-radius: 2px;
+    width: 100px;
+    height: 80px;
+    cursor: pointer;
+    border: none;
+}

@@ -1,0 +1,150 @@
+.header{
+    border-radius: 40px;
+    margin: 5px 5px 5px 5px;
+    padding: 15px 15px 15px 15px;
+    font-size: xxx-large;
+    font-style: initial;
+    font-family: fantasy;
+    border: darkslateblue;
+    background-color: rgba(223, 172, 110, 0.984);
+    color: rgb(40, 50, 195)
+}
+.header3{
+    font-style: italic;
+    background-color: rgb(249, 220, 184);
+    color: rgb(40, 50, 195)
+    text-align: left;
+    border-radius: 45px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 120px;
+}
+.header4{
+    font-style: oblique;
+    text-align: left;
+    background-color: rgb(240, 234, 226);
+    border-radius: 60px;
+    color: rgb(40, 50, 195)
+    padding: 5px 5px 5px 40px;
+    margin: 5px 5px 5px 5px;
+}
+
+body{
+    background-image: ;
+    background-size: 
+    background-position
+}
+
+
+
+.house{
+    border-width: 5px;
+    border-color: rgb(248, 248, 249);
+    background-color: blueviolet;
+    padding: ;
+    margin: 3px 3px 3px 3px;
+    float: inline-end;
+}
+.office{
+    border-width: 5px;
+    border-color: rgb(249, 249, 252);
+    background-color: blueviolet;
+    margin: 3px 3px 3px 3px;
+    float: right;
+}
+.rugs{
+    border-width: 5px;
+    border-color: rgb(250, 250, 253);
+    background-color: blueviolet;margin: 3px 3px 3px 3px;
+    float: inline-end;
+}
+.jewelries{
+    border-width: 5px;
+    border-color: rgb(250, 250, 252);
+    background-color: blueviolet;
+    float: right;
+}
+.event{
+    border-width: 3px;
+    border-color: rgb(248, 248, 250);
+    background-color: blueviolet;
+    float: inline-end;
+}
+
+.subscribe{
+    background-color: rgb(145, 16, 16);
+    cursor: pointer;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 85px;
+    border-radius: 3px;
+}
+.subscribe:hover{
+    /*background-color: green;*/
+    opacity: 0.8;
+}
+.subscribe:active{
+    /*background-color: blue;*/
+    opacity: 0.6;
+}
+.signin{
+    background-color: blue;
+    cursor: pointer;
+    border: none;
+    height: 35px;
+    width: 85px;
+    color: rgb(101, 101, 231);
+    border-radius: 10px;
+    margin-left: 10px;
+    border-color: yellow;
+    border-style: solid;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.signin:hover{
+    background-color: yellow;
+}
+.signin:active{
+    background-color: white;
+}
+.para{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.grid{
+    display: flex;
+    
+
+}
+button{
+    border: solid black;
+    border-radius: 2rem 3rem;
+}
+.myform{
+    display: flex;
+    justify-content: space-between;
+}
+.myform .form1{
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+    gap: 2rem;
+}
+.myform .form2{
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+    gap: 2rem;
+}
+/* img{
+    width: 150px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 1rem;
+    
+} */

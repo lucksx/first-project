@@ -1,0 +1,21 @@
+.one{
+    padding: 4rem;
+    border: 5px solid blue;
+    position: relative;
+}
+.one span{
+    position: absolute;
+    top: 80px;
+    left: 150px;
+}
+img{
+    border: solid black;
+}
+h1{
+    border: 2px solid red;
+    padding: 2rem;
+    position: relative;
+    left: 50%;
+    position: sticky;
+    top: 0px;
+}
